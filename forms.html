@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        #form{
+            border:solid 1px;
+            width: 50%;
+            padding: 24px;
+            margin: 0 auto;
+        }
+        .input{
+            padding: 12px 6px;
+            width:80%;
+            border-radius: 5px;
+            border: solid 1px;
+        }
+        button{
+            padding: 6px 12px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            background-color: rgb(126, 218, 126);
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <h2>Sign Up</h2>
+        <label for="firstname">First Name</label>
+        <br/>
+        <input name="firstname" type="text" placeholder ="Enter First Name" required class="input"/>
+        <br/>
+        <br/>
+        <label for="email">Email Adress</label>
+        <br/>
+        <input name="email" type="email" placeholder ="Enter Your Email" required class="input"/>
+        <br/>
+        <br/>
+        <label for="phonenumber">Phone Number</label>
+        <br/>
+        <input name ="phonenumber" type="text" placeholder="Phone Number"required class="input"/>
+        <br/>
+        <br/>
+        <label for="dob">D.O.B</label>
+        <br/>
+        <input name="dob" type="date" required class="input"/>
+        <br/>
+        <br/>
+        <label for="password">Password</label>
+        <br/>
+        <input name ="password" type="password" placeholder="Enter Password" required class="input"/>
+        <br/>
+        <br/>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
